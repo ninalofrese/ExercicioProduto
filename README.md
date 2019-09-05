@@ -2,7 +2,7 @@
 
 [Tela para reproduzir](https://marvelapp.com/194b601g/screen/56839103)
 
-Soluções interessantes na resolução:
+Descobertas interessantes na resolução:
 
 - o tamanho da foto estava sobrando em cima e embaixo, usei o `scaleType="CenterCrop"` para cortar
 - a pasta drawable é para imagens, a mipmap é para ícones
