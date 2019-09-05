@@ -6,7 +6,7 @@ Descobertas interessantes na resolução:
 
 - o tamanho da foto estava sobrando em cima e embaixo, usei o `scaleType="CenterCrop"` para cortar
 - a pasta drawable é para imagens, a mipmap é para ícones
-- os campos podem ser formatados para um ou mais tipos. Um exemplo é `inputType="numberDecimal|number" no campo preço
+- os campos podem ser formatados para um ou mais tipos. Um exemplo é `inputType="numberDecimal|number"` no campo preço
 - para converter de EditText para os tipos Integer e Double precisa de parse
 - para validar os campos vazios, por algum motivo não funcionou `TextUtils.isEmpty()`, então usei `nome.equals("")` mesmo
 - não confirmei essa informação, mas todo tipo de dado que vem por input parece que precisa ser formatado para String antes de ser convertido para outro formato. Acho que existe uma questão de cast também para trazer em outros formatos.
